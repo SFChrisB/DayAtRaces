@@ -75,6 +75,7 @@ namespace A_Day_at_the_Races
             };
 
             minBetlabel.Text = "Minimum Bet:" + betsNumUD.Minimum;
+            nameTextLabel.Text = "Joe";
             guyArray[0].UpdateLabels();
             guyArray[1].UpdateLabels();
             guyArray[2].UpdateLabels();
@@ -120,16 +121,19 @@ namespace A_Day_at_the_Races
         private void joeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             radioButtonSelected = 0;
+            nameTextLabel.Text = "Joe";
         }
 
         private void bobRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             radioButtonSelected = 1;
+            nameTextLabel.Text = "Bob";
         }
 
         private void alRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             radioButtonSelected = 2;
+            nameTextLabel.Text = "Al";
         }
     }
 }

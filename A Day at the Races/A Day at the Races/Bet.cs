@@ -25,7 +25,7 @@ namespace A_Day_at_the_Races
                 return description;
             } else
             {
-                description = Bettor.Name + " bets " + Amount + " on dog #" + Dog;
+                description = Bettor.Name + " bets " + Amount + " bucks on dog #" + Dog;
                 return description;
             }
         }
